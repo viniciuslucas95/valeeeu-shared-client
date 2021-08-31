@@ -4,7 +4,7 @@ import { Unit } from '../../../app/helpers';
 import { colors } from '../../../configs';
 import { IProps } from '../interfaces';
 
-const { vw } = Unit;
+const { vw, vh } = Unit;
 
 export function MenuIcon({ color, size, style }: IProps) {
   const fixedSize = (size ?? vw(1)) / 4;
@@ -15,7 +15,7 @@ export function MenuIcon({ color, size, style }: IProps) {
       height={22 * fixedSize}
       viewBox='0 0 26 22'
       fill='none'
-      style={style}
+      style={[{ top: vh(0) }, style]}
     >
       <Rect
         y={19.608}

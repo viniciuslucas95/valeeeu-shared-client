@@ -1,4 +1,4 @@
-import { IWorkerInfo } from '../../../app/interfaces';
+import { IWorkerInfo } from '../../app/interfaces';
 
 enum CategoryTypes {
   services = 'Presta serviços',

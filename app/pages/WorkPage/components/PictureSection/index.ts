@@ -1,1 +1,0 @@
-export { PictureSection } from './PictureSection';
