@@ -1,15 +1,10 @@
 import React from 'react';
 import { Container } from './styles';
-import { IHaveBoldText } from './interface';
 import { IColorable, IHaveSize, IStyleable } from '../../interfaces';
 import { Fonts, Sizes } from '../../enums';
 import { Item } from './Item';
 
-interface IProps
-  extends Partial<IColorable>,
-    IStyleable,
-    IHaveBoldText,
-    Partial<IHaveSize> {
+interface IProps extends Partial<IColorable>, IStyleable, Partial<IHaveSize> {
   texts: string[];
   font: Fonts;
 }

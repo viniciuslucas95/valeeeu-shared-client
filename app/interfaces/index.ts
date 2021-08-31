@@ -5,3 +5,4 @@ export { INavigate } from './INavigate';
 export { IPressable } from './IPressable';
 export { IStyleable } from './IStyleable';
 export { IHavePlaceholder } from './IHavePlaceholder';
+export { IHaveFlexDistribution } from './IHaveFlexDistribution';
