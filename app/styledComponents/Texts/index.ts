@@ -5,6 +5,6 @@ export {
   MediumText,
   ItalicText,
   RegularText,
-  SemiBoldLightText,
+  SemiBoldItalicText,
   SemiBoldText,
 } from './Texts';

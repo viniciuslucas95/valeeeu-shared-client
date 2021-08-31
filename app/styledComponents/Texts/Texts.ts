@@ -48,8 +48,8 @@ export const SemiBoldText = styled.Text<IProps>`
   font-size: ${({ size }) => Size.getTextSize(size ?? Sizes.medium)};
 `;
 
-export const SemiBoldLightText = styled.Text<IProps>`
-  font-family: 'Poppins-SemiBoldLight';
+export const SemiBoldItalicText = styled.Text<IProps>`
+  font-family: 'Poppins-SemiBoldItalic';
   color: ${({ color }) => color ?? colors.white};
   font-size: ${({ size }) => Size.getTextSize(size ?? Sizes.medium)};
 `;

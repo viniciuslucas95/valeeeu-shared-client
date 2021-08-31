@@ -9,6 +9,7 @@ export function useFonts() {
     'Poppins-Medium': require('../../assets/fonts/poppins-medium.ttf'),
     'Poppins-MediumItalic': require('../../assets/fonts/poppins-mediumItalic.ttf'),
     'Poppins-SemiBold': require('../../assets/fonts/poppins-semiBold.ttf'),
+    'Poppins-SemiBoldItalic': require('../../assets/fonts/poppins-semiBoldItalic.ttf'),
     'Roboto-Medium': require('../../assets/fonts/roboto-medium.ttf'),
   });
 
